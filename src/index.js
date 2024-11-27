@@ -1,6 +1,7 @@
 import "./style.css";
 import { homeH1, homeImg, homePara } from "./home";
 import { menuH1, menuImg, menuPara } from "./menu";
+import { contactH1, contactImg, contactPara } from "./contact";
 
 const contentDiv = document.querySelector('#content');
 const navBtns = Array.from(document.querySelectorAll("nav > button"));
@@ -24,6 +25,6 @@ function switchPage(page) {
         contentDiv.append(menuImg, menuH1, menuPara);   
     } else if (page === 'about') {
         contentDiv.textContent = '';
-        console.log('display about page');
+        contentDiv.append(contactImg, contactH1, contactPara);   
     }
 }

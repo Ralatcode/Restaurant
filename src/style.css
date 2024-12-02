@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 #content {
     text-align: center;
+    font-family: 'Raleway';
+    margin-bottom: 2rem;
 }
 
 .nav-list {
@@ -14,10 +26,11 @@
     background-color: transparent;
     border-radius: 10px;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .home-img {
     width: 100%;
     height: auto;
-    max-height: 850px;
+    max-height: 725px;
 }

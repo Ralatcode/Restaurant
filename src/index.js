@@ -1,5 +1,5 @@
 import "./style.css";
-import { homeH1, homeImg, homePara } from "./home";
+import { homeContent } from "./home";
 import { menuH1, menuImg, menuPara } from "./menu";
 import { contactH1, contactImg, contactPara } from "./contact";
 
@@ -19,7 +19,7 @@ navBtns.forEach((btn) => {
 function switchPage(page) {
     if (page === 'home') {
         contentDiv.textContent = '';
-        contentDiv.append(homeImg, homeH1, homePara);   
+        contentDiv.append(homeContent);   
     } else if (page === 'menu') {
         contentDiv.textContent = '';
         contentDiv.append(menuImg, menuH1, menuPara);   

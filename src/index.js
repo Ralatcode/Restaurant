@@ -12,7 +12,9 @@ switchPage(currentPage);
 navBtns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
         currentPage = e.target.id;
+        removeActive();
         switchPage(currentPage);
+        e.target.classList.add('active');
     })
 })
 
@@ -27,4 +29,9 @@ function switchPage(page) {
         contentDiv.textContent = '';
         contentDiv.append(contactImg, contactH1, contactPara);   
     }
+}
+function removeActive() {
+   navBtns.forEach((btn) => {
+    btn.classList.remove('active');
+   })   
 }

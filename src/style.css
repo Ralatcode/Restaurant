@@ -11,6 +11,7 @@
 #content {
     text-align: center;
     font-family: 'Raleway';
+    line-height: 1.5;
     margin-bottom: 3.5rem;
 }
 
@@ -29,8 +30,30 @@
     font-family: inherit;
 }
 
+h1, h2 {
+    font-family: 'Montserrant';
+    margin-bottom: 5px;
+    line-height: 1.15;
+}
+
+h1 {
+    width: 85%;
+    max-width: 825px;
+    margin: 0 auto;
+}
+
+p {
+    width: 90%;
+    max-width: 1085px;
+    margin: 5px auto;
+}
+
 .home-img {
     width: 100%;
     height: auto;
     max-height: 700px;
+    margin-bottom: 16px;
+}
+.div-two, .div-three {
+    margin-top: 16px;
 }

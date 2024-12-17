@@ -30,6 +30,11 @@
     font-family: inherit;
 }
 
+.nav-list > button.active {
+    background-color: rgba(161, 84, 84, 0.623);
+    color: #eee;
+}
+
 h1, h2 {
     font-family: 'Montserrant';
     margin-bottom: 5px;

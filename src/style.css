@@ -23,16 +23,16 @@
 .nav-list > button {
     padding: 10px;
     outline: none;
-    border: 1px solid #728eda;
+    border: 2px solid rgba(182, 32, 32, 0.623);
     background-color: transparent;
     border-radius: 10px;
     cursor: pointer;
-    font-family: inherit;
+    font-style: inherit;
 }
 
 .nav-list > button.active {
     background-color: rgba(161, 84, 84, 0.623);
-    color: #eee;
+    color: white;
 }
 
 h1, h2 {
@@ -43,22 +43,22 @@ h1, h2 {
 
 h1 {
     width: 85%;
-    max-width: 825px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
 p {
     width: 90%;
-    max-width: 1085px;
-    margin: 5px auto;
+    max-width: 850px;
+    margin: .75rem auto .25rem;
 }
 
 .home-img {
     width: 100%;
     height: auto;
     max-height: 700px;
-    margin-bottom: 16px;
+    margin-bottom: 2rem;
 }
 .div-two, .div-three {
-    margin-top: 16px;
+    margin-top: 2.5rem;
 }

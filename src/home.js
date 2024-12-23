@@ -18,7 +18,7 @@ homeH1.textContent = "Welcome to Ralat Restaurant - where flavour meets elegance
 homeDiv.classList.add('home-div')
 homeDiv.append(homeImg, homeH1, homePara);
 divTwoHeading.textContent = 'Our Menu: A Symphony of Flavors';
-divTwoPara.textContent = `Our seasonal menu features a selection of dishes that celebrate the finest local and international flavors. Whether you’re a fan of classic comfort food, innovative culinary creations, or fresh, locally-sourced ingredients, we’ve got something to excite every palate.From mouthwatering appetizers to indulgent desserts, each dish is carefully crafted by our talented chefs to provide an unforgettable dining experience.`;
+divTwoPara.textContent = `Our seasonal menu features a selection of dishes that celebrate the finest local and international flavors. Whether you’re a fan of classic comfort food, innovative culinary creations, or fresh, locally-sourced ingredients, we’ve got something to excite every palate. From mouthwatering appetizers to indulgent desserts, each dish is carefully crafted by our talented chefs to provide an unforgettable dining experience.`;
 divTwo.classList.add('div-two')
 divTwo.append(divTwoHeading, divTwoPara);
 divThreeHeading.textContent = 'A Warm, Inviting Atmosphere';

@@ -9,10 +9,10 @@ const divSoup = document.createElement('div');
 const appetizersObj = {
     div: divAppetizer,
     heading: 'Appetizers',
-    item1: 'Peppered Snails: NGN 3,500 Spicy marinated snails, grilled to perfection.',
-    item2: 'Meat Pie: NGN 800 Flaky pastry stuffed with minced meat, potatoes, and spices',
-    item3: 'Moi Moi: NGN 1,200 Steamed bean pudding with a hint of peppers and spices.',
-    item4: 'Asun: NGN 3,000 Spicy grilled goat meat, seasoned with traditional spices.',
+    item1: 'Peppered Snails (NGN 3,500): Spicy marinated snails, grilled to perfection.',
+    item2: 'Meat Pie (NGN 800): Flaky pastry stuffed with minced meat, potatoes, and spices',
+    item3: 'Moi Moi (NGN 1,200): Steamed bean pudding with a hint of peppers and spices.',
+    item4: 'Asun (NGN 3,000): Spicy grilled goat meat, seasoned with traditional spices.',
 };
 
 menuImg.src = 'https://metrobi.com/wp-content/uploads/2024/06/10-restaurant-menu-ideas-to-attract-more-customers-768x434.webp';

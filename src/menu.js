@@ -15,6 +15,15 @@ const appetizersObj = {
     item4: 'Asun (NGN 3,000): Spicy grilled goat meat, seasoned with traditional spices.',
 };
 
+const soupObj = {
+    div: divSoup,
+    heading: 'Soup',
+    item1: 'Egusi Soup (NGN 3,000): Ground melon seeds cooked with spinach and palm oil. Served with your choice of swallow.',
+    item2: 'Afang Soup (NGN 3,500): Rich vegetable soup with waterleaf and okazi leaves. Served with your choice of swallow.',
+    item3: 'Efo Riro (NGN 3,200): A savory spinach stew with assorted meats and spices.',
+    item4: 'Banga Soup (NGN 3,800): Palm nut soup with fresh catfish. Served with your choice of swallow.',
+};
+
 menuImg.src = 'https://metrobi.com/wp-content/uploads/2024/06/10-restaurant-menu-ideas-to-attract-more-customers-768x434.webp';
 menuImg.alt = 'Menu Image';
 menuImg.classList.add('home-img');
@@ -50,19 +59,10 @@ function createInnerContent(parentObj) {
 
 
 createInnerContent(appetizersObj);
+createInnerContent(soupObj);
 
 
-
-const soupObj = {
-    div: divAppetizer,
-    heading: '',
-    item1: '',
-    item2: '',
-    item3: '',
-    item4: '',
-};
-
-menuContent.append(heroContent, divAppetizer)
+menuContent.append(heroContent, divAppetizer,divSoup);
 
 
 

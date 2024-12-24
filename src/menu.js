@@ -26,21 +26,21 @@ heroContent.append(menuImg, menuH1, menuPara);
 function createInnerContent(parentObj) {
     const heading = document.createElement('h2');
     heading.classList.add('heading');
-    heading.textContent = parentObj.title;
-    console.log(parentObj.title);
+    heading.textContent = parentObj.heading;
     const ul = document.createElement('ul')
     for (let i = 1; i <= 4; i++) {
         const item = document.createElement('li');
         item.classList.add(`item${i}`);
-        if (item.classList === 'item1') {
+        console.log(item.classList.value);
+        if (item.classList.value === 'item1') {
             item.textContent = parentObj.item1;
-        } else if (item.classList === 'item2') {
+        } else if (item.classList.value === 'item2') {
             item.textContent = parentObj.item2;
-        } else if (item.classList === 'item2') {
+        } else if (item.classList.value === 'item2') {
             item.textContent = parentObj.item2;
-        } else if (item.classList === 'item3') {
+        } else if (item.classList.value === 'item3') {
             item.textContent = parentObj.item3;
-        } else if (item.classList === 'item4') {
+        } else if (item.classList.value === 'item4') {
             item.textContent = parentObj.item4;
         }
 

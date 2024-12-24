@@ -31,7 +31,6 @@ function createInnerContent(parentObj) {
     for (let i = 1; i <= 4; i++) {
         const item = document.createElement('li');
         item.classList.add(`item${i}`);
-        console.log(item.classList.value);
         if (item.classList.value === 'item1') {
             item.textContent = parentObj.item1;
         } else if (item.classList.value === 'item2') {

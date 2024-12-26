@@ -5,6 +5,9 @@ const menuContent = document.createElement('div');
 const heroContent = document.createElement('div');
 const divAppetizer = document.createElement('div');
 const divSoup = document.createElement('div');
+const mainDish = document.createElement('div');
+const drinkDiv = document.createElement('div');
+const dessertDiv = document.createElement('div');
 
 const appetizersObj = {
     div: divAppetizer,
@@ -23,6 +26,33 @@ const soupObj = {
     item3: 'Efo Riro (NGN 3,200): A savory spinach stew with assorted meats and spices.',
     item4: 'Banga Soup (NGN 3,800): Palm nut soup with fresh catfish. Served with your choice of swallow.',
 };
+
+const mainDishObj = {
+    div: mainDish,
+    heading: 'Main Dishes',
+    item1: 'Jollof Rice & Chicken(NGN 2,800): Smoky jollof rice served with fried chicken and plantains.',
+    item2: 'Fried Rice & Grilled Fish (NGN 3,500): Flavorful fried rice served with perfectly grilled fish.',
+    item3: 'Ofada Rice & Ayamase Sauce (NGN 3,200): Local rice served with spicy green pepper sauce.',
+    item4: 'Yam Porridge (Asaro) (NGN 2,500): Creamy yam porridge cooked with palm oil and vegetables.',
+}
+
+const drinkObj = {
+    div: drinkDiv,
+    heading: 'Drinks',
+    item1: 'Chapman (NGN 1,200): A refreshing Nigerian cocktail.',
+    item2: 'Zobo (NGN 800): Hibiscus flower drink spiced with ginger and cloves.',
+    item3: 'Palm Wine (NGN 1,500): Natural, sweet, and refreshing.',
+    item4: 'Soft Drinks (NGN 500): Coca-Cola, Fanta, Sprite, etc.'
+}
+
+const dessertObj = {
+    div: dessertDiv,
+    heading: 'Desserts',
+    item1: 'Puff Puff (NGN 1,000): Soft, deep-fried dough balls, lightly sweetened.',
+    item2: 'Akara (NGN 1,200): Fried bean cakes served with pepper sauce.',
+    item3: 'Chin Chin (NGN 800): Crunchy fried dough snacks.',
+    item4: 'Chicken Wings (NGN 2,500): Spicy marinated wings grilled to perfection.',
+}
 
 menuImg.src = 'https://metrobi.com/wp-content/uploads/2024/06/10-restaurant-menu-ideas-to-attract-more-customers-768x434.webp';
 menuImg.alt = 'Menu Image';
@@ -60,9 +90,12 @@ function createInnerContent(parentObj) {
 
 createInnerContent(appetizersObj);
 createInnerContent(soupObj);
+createInnerContent(mainDishObj);
+createInnerContent(drinkObj);
+createInnerContent(dessertObj);
 
 
-menuContent.append(heroContent, divAppetizer,divSoup);
+menuContent.append(heroContent, divAppetizer,divSoup, mainDish, drinkDiv, dessertDiv);
 
 
 

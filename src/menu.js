@@ -57,7 +57,7 @@ const dessertObj = {
 menuImg.src = 'https://metrobi.com/wp-content/uploads/2024/06/10-restaurant-menu-ideas-to-attract-more-customers-768x434.webp';
 menuImg.alt = 'Menu Image';
 menuImg.classList.add('home-img');
-menuPara.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nulla dolorum eveniet atque ab cum!';
+menuPara.textContent = 'Discover the vibrant flavors of authentic Nigerian cuisine at Ralat Restaurant. Our menu showcases a rich variety of traditional dishes, prepared with fresh ingredients and a touch of homegrown spices to bring you a truly unforgettable dining experience.';
 menuH1.textContent = "Check Out Our Menu";
 heroContent.classList.add('home-div');
 heroContent.append(menuImg, menuH1, menuPara);

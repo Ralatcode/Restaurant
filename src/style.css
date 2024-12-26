@@ -66,6 +66,8 @@ p {
 
 .parent-div {
     margin: 1rem 0;
+    padding-bottom: .75rem;
+    border-bottom: 2px solid black;
 }
 
 ul > li {

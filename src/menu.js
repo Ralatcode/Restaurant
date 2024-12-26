@@ -84,6 +84,7 @@ function createInnerContent(parentObj) {
 
         ul.append(item);
     }
+    parentObj.div.classList.add('parent-div');
     parentObj.div.append(heading, ul);
 }
 

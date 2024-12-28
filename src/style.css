@@ -67,7 +67,7 @@ p {
 .parent-div {
     margin: 1rem 0;
     padding-bottom: .75rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #eee;
 }
 
 ul > li {

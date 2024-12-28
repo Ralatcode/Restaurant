@@ -1,7 +1,7 @@
 import "./style.css";
 import { homeContent } from "./home";
 import { menuContent } from "./menu";
-import { contactH1, contactImg, contactPara } from "./contact";
+import {contactContent } from "./contact";
 
 const contentDiv = document.querySelector('#content');
 const navBtns = Array.from(document.querySelectorAll("nav > button"));
@@ -27,7 +27,7 @@ function switchPage(page) {
         contentDiv.append(menuContent);   
     } else if (page === 'about') {
         contentDiv.textContent = '';
-        contentDiv.append(contactImg, contactH1, contactPara);   
+        contentDiv.append(contactContent);   
     }
 }
 function removeActive() {

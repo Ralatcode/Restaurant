@@ -83,6 +83,10 @@ ul > li {
     font-weight: 600;
 }
 
+.about-div, .contact-div {
+    margin-top: 1rem;
+}
+
 .contact-heading, .contact-h3 {
     font-size: 1.25rem;
     margin-top: .75rem;

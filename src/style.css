@@ -45,6 +45,7 @@ h1 {
     width: 85%;
     max-width: 750px;
     margin: 0 auto;
+    font-size: 2.5rem;
 }
 
 p {
@@ -76,4 +77,23 @@ ul > li {
     max-width: 850px;
     margin: .5rem auto 0;
     list-style: none;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.contact-heading, .contact-h3 {
+    font-size: 1.25rem;
+    margin-top: .75rem;
+}
+
+.contact-para {
+    font-size: 1.1rem;
+    max-width: 735px;
+}
+
+.contact-info {
+    text-align: left;
+    max-width: 350px;
 }

@@ -14,6 +14,9 @@ contactPara.textContent = ' Join us and savor the essence of Nigeria.';
 contactH1.textContent = "Ralat Restaurant";
 heroDiv.append(contactImg, contactH1, contactPara);
 
+aboutDiv.classList.add('about-div');
+contactDiv.classList.add('contact-div');
+
 function loadAboutContent(parent) {
     const aboutH3 = document.createElement('h3');
     const aboutP1 = document.createElement('p');
